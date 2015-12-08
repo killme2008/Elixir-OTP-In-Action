@@ -6,12 +6,17 @@ defmodule TrServer do
   execute RPC commands via that TCP stream.
   """
   use GenServer
+  use Application
   require Logger
   @server __MODULE__
   @default_port 1055
 
   defmodule State do
 	  defstruct port: nil, lsock: nil, request_count: 0
+  end
+
+  def start(_type,_args) do
+    start_link()
   end
 
   def start_link(), do: start_link(@default_port)
