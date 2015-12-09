@@ -1,0 +1,52 @@
+v1.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.beam">>,
+ 'Elixir.SimpleCache',<<"lib/simple_cache.ex">>,
+ ['Elixir.Kernel'],
+ ['Elixir.SimpleCache.Event','Elixir.SimpleCache.Element',
+  'Elixir.SimpleCache.Store'],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.Element.beam">>,
+ 'Elixir.SimpleCache.Element',<<"lib/simple_cache/element.ex">>,
+ [erlang,'Elixir.Kernel','Elixir.Kernel.Def','Elixir.GenServer',
+  'Elixir.Module','Elixir.SimpleCache.Element.State','Elixir.State',
+  'Elixir.Protocol'],
+ ['Elixir.SimpleCache.Store','Elixir.SimpleCache.ElementSupervisor',calendar],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.Element.State.beam">>,
+ 'Elixir.SimpleCache.Element.State',<<"lib/simple_cache/element.ex">>,
+ [erlang,'Elixir.Kernel','Elixir.Kernel.Def','Elixir.SimpleCache.Element',
+  'Elixir.GenServer','Elixir.Module','Elixir.State','Elixir.Protocol'],
+ [],[],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.Store.beam">>,
+ 'Elixir.SimpleCache.Store',<<"lib/simple_cache/store.ex">>,
+ ['Elixir.Kernel','Elixir.Module'],
+ [ets],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.Event.beam">>,
+ 'Elixir.SimpleCache.Event',<<"lib/simple_cache/event.ex">>,
+ ['Elixir.Kernel','Elixir.Module'],
+ ['Elixir.GenEvent'],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.ElementSupervisor.beam">>,
+ 'Elixir.SimpleCache.ElementSupervisor',
+ <<"lib/simple_cache/element_supervisor.ex">>,
+ ['Elixir.Kernel','Elixir.Module','Elixir.Supervisor',
+  'Elixir.Supervisor.Spec'],
+ ['Elixir.SimpleCache.Element'],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.Supervisor.beam">>,
+ 'Elixir.SimpleCache.Supervisor',<<"lib/simple_cache/supervisor.ex">>,
+ ['Elixir.Kernel','Elixir.Module','Elixir.Supervisor',
+  'Elixir.Supervisor.Spec'],
+ ['Elixir.SimpleCache.ElementSupervisor','Elixir.SimpleCache.Event'],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.App.beam">>,
+ 'Elixir.SimpleCache.App',<<"lib/simple_cache/app.ex">>,
+ ['Elixir.Kernel','Elixir.Module','Elixir.Application'],
+ ['Elixir.SimpleCache.Store','Elixir.SimpleCache.Supervisor'],
+ [],nil}.
+{<<"_build/dev/lib/simple_cache/ebin/Elixir.SimpleCache.EventLogger.beam">>,
+ 'Elixir.SimpleCache.EventLogger',<<"lib/simple_cache/event_logger.ex">>,
+ ['Elixir.Module','Elixir.Kernel','Elixir.Logger','Elixir.GenEvent'],
+ [erlang,'Elixir.SimpleCache.Event','Elixir.String.Chars'],
+ [],nil}.
