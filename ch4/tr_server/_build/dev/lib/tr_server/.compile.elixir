@@ -1,0 +1,27 @@
+v1.
+{<<"_build/dev/lib/tr_server/ebin/Elixir.TrServer.Supervisor.beam">>,
+ 'Elixir.TrServer.Supervisor',<<"lib/tr_server/supervisor.ex">>,
+ ['Elixir.Kernel','Elixir.Module','Elixir.Supervisor',
+  'Elixir.Supervisor.Spec'],
+ ['Elixir.TrServer'],
+ [],nil}.
+{<<"_build/dev/lib/tr_server/ebin/Elixir.TrServerApp.beam">>,
+ 'Elixir.TrServerApp',<<"lib/tr_server_app.ex">>,
+ ['Elixir.Kernel','Elixir.Module','Elixir.Application'],
+ ['Elixir.TrServer.Supervisor'],
+ [],nil}.
+{<<"_build/dev/lib/tr_server/ebin/Elixir.TrServer.State.beam">>,
+ 'Elixir.TrServer.State',<<"lib/tr_server.ex">>,
+ ['Elixir.Kernel','Elixir.Logger','Elixir.Application','Elixir.Kernel.Def',
+  'Elixir.Protocol','Elixir.State','Elixir.Module','Elixir.GenServer',
+  'Elixir.TrServer'],
+ [erlang],
+ [],nil}.
+{<<"_build/dev/lib/tr_server/ebin/Elixir.TrServer.beam">>,'Elixir.TrServer',
+ <<"lib/tr_server.ex">>,
+ ['Elixir.Kernel','Elixir.TrServer.State','Elixir.Logger',
+  'Elixir.Application','Elixir.Kernel.Def','Elixir.Protocol','Elixir.State',
+  'Elixir.Module','Elixir.GenServer'],
+ ['Elixir.List',erlang,erl_parse,io_lib,'Elixir.Regex',gen_tcp,erl_scan,
+  'Elixir.String','Elixir.Code'],
+ [],nil}.
